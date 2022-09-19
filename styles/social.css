@@ -1,0 +1,77 @@
+
+.social {
+  width: 170px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 5%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 12px 16px;
+}
+
+.social img {
+  width: 25px;
+  margin: 8px;
+}
+
+.social .instagram .instagram-img img {
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+
+.social .instagram .instagram-img img:hover {
+  transition: 0.5s;
+  content: url('../images/social/instagram-white.png');
+  background-color: black;
+}
+
+.social .facebook img {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.social .facebook img:hover {
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  content: url('../images/social/facebook-white.png');
+  background-color: black;
+}
+
+.social .pinterest img {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.social .pinterest img:hover {
+  transition: 0.5s;
+  content: url('../images/social/pinterest-white.png');
+  background-color: black;
+}
+
+.social .youtube img {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.social .youtube img:hover {
+  transition: 0.5s;
+  content: url('../images/social/youtube-white.png');
+  background-color: black;
+}
+
+.what-also .social {
+  box-shadow: none;
+  box-sizing: border-box;
+  align-self: center;
+  justify-self: center;
+  max-width: 288px;
+  width: 100%;
+  margin: 0;
+}
+
+.what-also .social img {
+  width: 48px;
+  height: 48px;
+}

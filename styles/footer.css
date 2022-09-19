@@ -1,0 +1,222 @@
+.footer {
+  background-color: black;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.footer .content  .logo {
+  user-select: none;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 120px;
+  max-width: 120px;
+  padding: 1.5% 1% 1% 3%;
+  width: 100%;
+}
+
+.footer .content  .logo a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .content  .logo a img{
+  box-sizing: border-box;
+  padding-right: 8px;
+  border-right: white 1px solid;
+
+}
+
+.footer .content .logo .logo-text {
+  box-sizing: border-box;
+  padding-left: 8px;
+}
+
+.content .main-content{
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  border-bottom: 1px white solid;
+  width: 100%;
+}
+.content .main-content .middle-side{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  padding: 50px 1% 0 1%;
+  width: 100%;
+}
+
+.content .main-content .middle-side .left-side{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2% 0;
+}
+.content .main-content .middle-side .text{
+  user-select: none;
+  box-sizing: border-box;
+  padding: 5% 0 0 10%;
+  max-width: 400px;
+  width: 100%;
+}
+.content .main-content .middle-side .text>p{
+  width: 100%;
+  color: white;
+}
+
+.content .main-content .middle-side .contacts{
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px 2%;
+  max-width: 700px;
+  width: 100%;
+}
+
+.content .main-content .middle-side .contacts >div:first-child{
+  border-right: 1px white solid;
+}
+
+.content .main-content .middle-side .contacts >div:last-child{
+  border-left: 1px white solid;
+}
+
+.content .main-content .middle-side .contacts .call{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 3%;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.content .main-content .middle-side .contacts ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  width: 100%;
+}
+
+.content .main-content .middle-side .contacts ul li{
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 1.5%;
+}
+
+.content .main-content .middle-side .contacts ul li>a{
+  color: white;
+  text-decoration: none;
+}
+.content .main-content .middle-side .contacts .title{
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  width: 100%;
+  margin-bottom: auto;
+}
+.content .main-content .middle-side .contacts .title div{
+  background-color: white;
+  box-sizing: border-box;
+  margin-right: 15px;
+  width: 32px;
+  height: 1px;
+}
+
+.content .main-content .middle-side .contacts .title p{
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.content .main-content .middle-side .contacts .write{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 3%;
+  max-width: 200px;
+  min-width: 200px;
+}
+
+
+.content .main-content .middle-side .contacts .come{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 3%;
+  max-width: 185px;
+  min-width: 185px;
+}
+
+.content .bottom-side {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  box-sizing: border-box;
+  padding: 1.5% 1%;
+  width: 100%;
+}
+
+.content .bottom-side .copyright{
+  user-select: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.5% 0;
+  min-width: 245px;
+  max-width: 245px;
+  width: 100%;
+}
+
+.content .bottom-side .copyright >p{
+  color: white;
+  width: 100%;
+}
+
+.content .bottom-side .navigation{
+  box-sizing: border-box;
+  padding: 5px;
+  max-width: 980px;
+  width: 100%;
+}
+
+.content .bottom-side .navigation ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.content .bottom-side .navigation ul li{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-width: 185px;
+  max-width: 185px;
+  padding: 5px;
+}
+
+.content .bottom-side .navigation ul li a{
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}

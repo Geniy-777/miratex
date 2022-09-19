@@ -1,0 +1,299 @@
+html {
+  scroll-behavior: smooth;
+}
+
+button:active {
+  transform: scale(90%);
+}
+
+.button-arrow-down {
+  cursor: pointer;
+  background: transparent url('../images/arrows/arrow-down.png') no-repeat center;
+  transform: rotate(180deg);
+  background-size: 45%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 2px black solid;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-down:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px -4px 6px gray;
+  background-color: black;
+  background-image: url('../images/arrows/arrow-down-white.png');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-down:active {
+  box-shadow: 0px 4px 6px gray;
+}
+
+.button-welcome,
+.button-netto,
+.button-invite,
+.button-rent-business,
+.button-work-train,
+.button-rent-ur-house,
+.button-place-live,
+.button-contact-us {
+  cursor: pointer;
+  background-size: 66%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 2px black solid;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-welcome {
+  background: transparent url('../images/for-use/welcome-grandmo.svg') no-repeat center;
+}
+
+.button-netto {
+  background: transparent url('../images/for-use/netto.svg') no-repeat center;
+}
+
+.button-invite {
+  background: transparent url('../images/for-use/invite-friends.svg') no-repeat center;
+}
+
+.button-rent-business {
+  background: transparent url('../images/for-use/rent-for-business.svg') no-repeat center;
+}
+
+.button-work-train {
+  background: transparent url('../images/for-use/work-and-train-home.svg') no-repeat center;
+}
+
+.button-rent-ur-house {
+  background: transparent url('../images/for-use/rent-your-house.svg') no-repeat center;
+}
+
+.button-place-live {
+  background: transparent url('../images/for-use/place-for-live.svg') no-repeat center;
+}
+
+.button-contact-us {
+  background: transparent url('../images/for-use/message-us.svg') no-repeat center;
+}
+
+.button-welcome:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/welcome-grandmo-white.svg');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-netto:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/netto-white.svg');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-invite:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/invite-friends-white.svg');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-rent-business:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/rent-for-business-white.svg');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-work-train:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/work-and-train-home-white.svg');
+
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-rent-ur-house:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/rent-your-house-white.svg');
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-place-live:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/place-for-live-white.svg');
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+
+}
+
+.button-contact-us:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/for-use/message-us-white.svg');
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+
+}
+
+.button {
+  cursor: pointer;
+  max-width: 400px;
+  width: 100%;
+  min-height: 60px;
+  background-color: #FFFFFF;
+  border: 2px black solid;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-black {
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+  max-width: 400px;
+  width: 100%;
+  min-height: 60px;
+  font-weight: 600;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  color: white;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-black:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: #FFFFFF;
+  border-color: black;
+  color: black;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-left {
+  cursor: pointer;
+  background: transparent url('../images/arrows/arrow-left.png') no-repeat center;
+  background-size: 33%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 2px black solid;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-left:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/arrows/arrow-left-white.png');
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-right {
+  cursor: pointer;
+  background: transparent url('../images/arrows/arrow-right.png') no-repeat center;
+  background-size: 33%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 2px black solid;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-arrow-right:hover {
+  border: 2px rgb(221, 203, 203) solid;
+  box-shadow: 0px 4px 6px gray;
+  background-color: black;
+  background-image: url('../images/arrows/arrow-right-white.png');
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.leaf>button {
+  margin: 10px;
+}
+
+.button-step {
+  cursor: pointer;
+  color: white;
+  box-sizing: border-box;
+  background-color: black;
+  border: 1px white solid;
+  max-width: 60px;
+  min-width: 60px;
+  max-height: 60px;
+  min-height: 60px;
+  padding: 10px;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-step:hover {
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+  color: black;
+  background-color: white;
+  border: 1px white solid;
+  box-shadow: 0px 4px 6px gray;
+}
+
+.button-share-link {
+  cursor: pointer;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 5px 15px;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
+
+.button-share-link:hover{
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+  color: white;
+  background-color: black;
+  border: 1px solid gray;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-share {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-rendering: auto;
+  align-items: center;
+  max-width: 64px;
+  min-width: 64px;
+  background-color: white;
+  min-height: 105px;
+  height: 100%;
+  border: 0;
+  transition: color 0.5s, background-color 0.7s, border 0.7s, transform 0.2s;
+}
